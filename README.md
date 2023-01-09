@@ -95,7 +95,7 @@ You will see the build errors and lint warnings in the console.
 
 👤 **Samuel Kyere**
 
-- GitHub: [@githubhandle]()
+- GitHub: [@githubhandle](https://github.com/admirerbrown)
 - Twitter: [@twitterhandle]()
 - LinkedIn: [LinkedIn]()
 
