@@ -1,4 +1,5 @@
 /* eslint-disable no-unused-vars */
+/* eslint-disable import/no-unresolved */
 import { render, screen } from '@testing-library/react';
 import App from './App.js';
 
