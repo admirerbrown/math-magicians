@@ -42,16 +42,18 @@ const CalcDesign = () => {
   ];
 
   return (
-    <div className="grid-container">
-      <div className="digit cal-output">
-        {total || 0}
-        {operation}
-        {next}
-      </div>
-      {digits.map((digit) => {
-        let className = 'digit';
-        if (
-          digit === 'AC'
+    <div className="page-wrapper">
+      <h2 className="page-note">Let&apos;s do some math!</h2>
+      <div className="grid-container">
+        <div className="digit cal-output">
+          {total || 0}
+          {operation}
+          {next}
+        </div>
+        {digits.map((digit) => {
+          let className = 'digit';
+          if (
+            digit === 'AC'
           || digit === '+/-'
           || digit === '%'
           || digit === '1'
@@ -65,32 +67,34 @@ const CalcDesign = () => {
           || digit === '9'
           || digit === '0'
           || digit === '.'
-        ) {
-          className += ' gray';
-        } else if (
-          digit === 'x'
+          ) {
+            className += ' gray';
+          } else if (
+            digit === 'x'
           || digit === '-'
           || digit === '+'
           || digit === '='
           || digit === '÷'
-        ) {
-          className += ' orange';
-        }
-        if (digit === '0') {
-          className += ' zero-zone';
-        }
-        return (
-          <div
-            key={digit}
-            className={className}
-            onClick={handleClick}
-            onKeyDown={handleClick}
-          >
-            {digit}
-          </div>
-        );
-      })}
+          ) {
+            className += ' orange';
+          }
+          if (digit === '0') {
+            className += ' zero-zone';
+          }
+          return (
+            <div
+              key={digit}
+              className={className}
+              onClick={handleClick}
+              onKeyDown={handleClick}
+            >
+              {digit}
+            </div>
+          );
+        })}
+      </div>
     </div>
+
   );
 };
 

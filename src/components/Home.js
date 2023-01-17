@@ -1,0 +1,39 @@
+/* eslint-disable react/no-unescaped-entities */
+const HomePage = () => (
+  <div className="text-wrapper">
+    <h2 className="homeTitle">Welcome to our page</h2>
+    <p className="pageText">
+      Mathematics is a fundamental part of human thought and
+      logic, and integral to attempts at understanding the world and ourselves.
+      Mathematics provides an effective way of building mental discipline and
+      encourages logical reasoning and mental rigor. In addition, mathematical
+      knowledge plays a crucial role in understanding the contents of other
+      school subjects such as science, social studies, and even music and art.
+      The purpose of this TSG is to investigate the role of mathematics in the
+      overall curriculum. Due to the wide range of possible issues that could be
+      addressed in this TSG, we plan to organize the papers and accompanying
+      discussions into three key strands. Firstly, we ask the question: why does
+      mathematics hold such an important and unique place among other subjects?
+      That is, what is the significance of mathematics in the overall school
+      curriculum? As a point of departure we offer a few thoughts on why
+      mathematics should be treated as an important subject in overall
+      curriculum. - Mathematics has a transversal nature. If we reflect on the
+      history of curriculum in general, then mathematics (geometry and algebra)
+      were two of the seven liberal arts in Greek as well as in medieval times.
+      This historical role supports the notion that mathematics has provided the
+      mental discipline required for other disciplines. - Mathematical literacy
+      is a crucial attribute of individuals living more effective lives as
+      constructive, concerned and reflective citizens. Mathematical literacy is
+      taken to include basic computational skills, quantitative reasoning,
+      spatial ability etc. - Mathematics is applied in various fields and
+      disciplines, i.e., mathematical concepts and procedures are used to solve
+      problems in science, engineering, economics. (For example, the
+      understanding of complex numbers is a prerequisite to learn many concepts
+      in electronics.) The complexity of those problems often requires
+      relatively sophisticated mathematical concepts and procedures when
+      compared to the mathematical literacy aforementioned.
+    </p>
+  </div>
+);
+
+export default HomePage;
