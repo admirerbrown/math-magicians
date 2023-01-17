@@ -1,7 +1,67 @@
-.main {
+.my-app {
+  background-color: #faf8f1;
+  height: 100vh;
+  color: #c58940;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  margin-right: 30px;
+}
+
+.banner {
+  font-size: 60px;
+}
+
+.nav-link {
+  display: flex;
+  gap: 15px;
+}
+
+.divider {
+  margin-left: 10px;
+}
+
+.nav-item,
+.divider,
+.pageText {
+  font-size: 25px;
+}
+
+.q-pageText {
+  display: flex;
+  text-align: center;
+  font-size: 30px;
+  width: 76%;
+  margin-top: 200px;
+}
+
+.q-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pageText,
+.q-pageText {
+  line-height: 2.5;
+}
+
+.text-wrapper {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 20px;
+  padding: 25px;
+}
+
+.homeTitle {
+  font-size: 35px;
+  color: #7b8fa1;
 }
 
 .grid-container {
@@ -40,6 +100,17 @@
 
 .gray {
   background-color: #eee;
+}
+
+.page-wrapper {
+  display: flex;
+  margin-top: 200px;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.page-note {
+  font-size: 50px;
 }
 
 @media only screen and (min-width: 768px) {
