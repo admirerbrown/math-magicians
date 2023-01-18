@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing calcDesign component should render the calculator Ui correctly 1`] = `
+<div
+  className="page-wrapper"
+>
+  <h2
+    className="page-note"
+  >
+    Let's do some math!
+  </h2>
+  <div
+    className="grid-container"
+  >
+    <div
+      className="digit cal-output"
+    >
+      0
+    </div>
+    <div
+      className="digit gray"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+    >
+      AC
+    </div>
+    <div
+      className="digit gray"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+    >
+      +/-
+    </div>
+    <div
+      className="digit gray"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+    >
+      %
+    </div>
+    <div
+      className="digit orange"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+    >
+      ÷
+    </div>
+    <div
+      className="digit gray"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+    >
+      7
+    </div>
+    <div
+      className="digit gray"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+    >
+      8
+    </div>
+    <div
+      className="digit gray"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+    >
+      9
+    </div>
+    <div
+      className="digit orange"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+    >
+      x
+    </div>
+    <div
+      className="digit gray"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+    >
+      4
+    </div>
+    <div
+      className="digit gray"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+    >
+      5
+    </div>
+    <div
+      className="digit gray"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+    >
+      6
+    </div>
+    <div
+      className="digit orange"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+    >
+      -
+    </div>
+    <div
+      className="digit gray"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+    >
+      1
+    </div>
+    <div
+      className="digit gray"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+    >
+      2
+    </div>
+    <div
+      className="digit gray"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+    >
+      3
+    </div>
+    <div
+      className="digit orange"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+    >
+      +
+    </div>
+    <div
+      className="digit gray zero-zone"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+    >
+      0
+    </div>
+    <div
+      className="digit gray"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+    >
+      .
+    </div>
+    <div
+      className="digit orange"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+    >
+      =
+    </div>
+  </div>
+</div>
+`;
