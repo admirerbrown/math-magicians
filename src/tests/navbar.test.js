@@ -7,12 +7,20 @@ import Navbar from '../components/Navbar';
 
 describe('Test the navbar component', () => {
   it('has all snapshots working', () => {
-    const tree = renderer.create(<Navbar />)
+    const tree = renderer.create(
+      <BrowserRouter>
+        <Navbar />
+      </BrowserRouter>,
+    )
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('renders without crashing', () => {
-    render(<Navbar />);
+    render(
+      <BrowserRouter>
+        <Navbar />
+      </BrowserRouter>,
+    );
   });
 });
