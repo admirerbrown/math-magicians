@@ -89,6 +89,11 @@ Open http://localhost:3000/ to view it in the browser.
 The page will automatically reload if you make changes to the code.
 You will see the build errors and lint warnings in the console.
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+[Live Demo](https://maths-magicians-j0t5.onrender.com)
+
+
 <!-- AUTHORS -->
 
 ## 👥 Author <a name="authors"></a>
